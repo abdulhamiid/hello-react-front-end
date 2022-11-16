@@ -15,15 +15,14 @@ function Greetings() {
   const result = useSelector((state) => state.data);
   console.log(result)
   return (
-    <div className="App">
-      <h4>Greetings from Backend</h4>
-      <ul>
+    <div className="App container">
+      <h2>Greetings from Api</h2>
         {result.map((item) => (
-          <li key={item.id}>
+          <p key={item.id}>
             {item.greeting}
-          </li>
+          </p>
         ))}
-      </ul>
+        <button onClick={() => {dispatch(fetchLoadedData())}}>Greet</button>
     </div>
   )
 }
