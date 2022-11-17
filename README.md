@@ -2,7 +2,7 @@
 
 # Hello React
 
-> This app is to create a React front-end with a Rails back-end and connect them to display a random message.
+> This app is to create a React front-end with a [Rails back-end](https://github.com/abdulhamiid/hello-rails-back-end) and connect them to display a random message.
 
 ## Built With
 
