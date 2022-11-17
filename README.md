@@ -13,10 +13,11 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+### Prerequisites
+Open the [Rails back-end](https://github.com/abdulhamiid/hello-rails-back-end) repo and follow the ```Getting started``` procedures in the  ```README.md``` file to start the server.
 
 ### Clone this repository
-
+To get a local copy up and running follow these simple example steps.
 Run this command
 ```
 git clone https://github.com/abdulhamiid/hello-react-front-end.git
